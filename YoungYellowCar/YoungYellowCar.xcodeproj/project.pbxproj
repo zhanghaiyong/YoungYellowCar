@@ -16,6 +16,7 @@
 		9963FC671ECD719400CDE271 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9963FC661ECD719400CDE271 /* MainController.swift */; };
 		9963FC6C1ECD719400CDE271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9963FC6B1ECD719400CDE271 /* Assets.xcassets */; };
 		998BD12A1ECE974C0062D6F6 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 998BD1291ECE974C0062D6F6 /* SWRevealViewController.m */; };
+		99CA48691ED2BACE0081B4D7 /* MyPinAnntation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CA48681ED2BACE0081B4D7 /* MyPinAnntation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		998BD1251ECE96600062D6F6 /* bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
 		998BD1281ECE974C0062D6F6 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		998BD1291ECE974C0062D6F6 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		99CA48681ED2BACE0081B4D7 /* MyPinAnntation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPinAnntation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				998BD1261ECE97090062D6F6 /* frameworks */,
 				9963FC641ECD719400CDE271 /* AppDelegate.swift */,
 				9963FC661ECD719400CDE271 /* MainController.swift */,
+				99CA48681ED2BACE0081B4D7 /* MyPinAnntation.swift */,
 				9954FAC81ECD9D6E00C37132 /* ActivityWebViewController.swift */,
 				9954FACA1ECDABC300C37132 /* MeumTableViewController.swift */,
 				9954FABF1ECD876000C37132 /* Main.storyboard */,
@@ -252,6 +255,7 @@
 				9963FC671ECD719400CDE271 /* MainController.swift in Sources */,
 				9963FC651ECD719400CDE271 /* AppDelegate.swift in Sources */,
 				9954FACB1ECDABC300C37132 /* MeumTableViewController.swift in Sources */,
+				99CA48691ED2BACE0081B4D7 /* MyPinAnntation.swift in Sources */,
 				998BD12A1ECE974C0062D6F6 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
