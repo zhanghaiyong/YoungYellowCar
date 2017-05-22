@@ -16,9 +16,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        
+        AMapServices.shared().apiKey = "98fb230e8ab4ac4c283b2d7bdaf82fbf"
         
         UINavigationBar.appearance().tintColor = UIColor.black;
         UIBarButtonItem.appearance().setBackButtonTitlePositionAdjustment(UIOffsetMake(0, -60), for: UIBarMetrics.default)
+        
+        
+        let storyBoard = UIStoryboard.init(name: "Main", bundle: nil);
+        let mainViewCtrl = storyBoard.instantiateViewController(withIdentifier: "MainController")
+        let meumViewCtrl = storyBoard.instantiateViewController(withIdentifier: "MeumTableViewController")
+        
+        let reveralVIewCtrl = SWRevealViewController.init(rearViewController: meumViewCtrl, frontViewController: UINavigationController.init(rootViewController: mainViewCtrl))
+        self.window?.rootViewController = reveralVIewCtrl
+        
+        self.window?.makeKeyAndVisible()
         
         return true
     }

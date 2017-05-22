@@ -1,0 +1,37 @@
+PODS:
+  - AMap3DMap (4.6.0):
+    - AMapFoundation (~> 1.3)
+  - AMapFoundation (1.3.3)
+  - AMapLocation (2.2.2):
+    - AMapFoundation (~> 1.3)
+  - AMapNavi (2.3.0):
+    - AMap3DMap (~> 4.2)
+    - AMapFoundation (~> 1.2)
+  - AMapSearch (4.4.1):
+    - AMapFoundation (~> 1.2)
+  - FTIndicator (1.1.6):
+    - FTIndicator/FTNotificationIndicator (= 1.1.6)
+    - FTIndicator/FTProgressIndicator (= 1.1.6)
+    - FTIndicator/FTToastIndicator (= 1.1.6)
+  - FTIndicator/FTNotificationIndicator (1.1.6)
+  - FTIndicator/FTProgressIndicator (1.1.6)
+  - FTIndicator/FTToastIndicator (1.1.6)
+
+DEPENDENCIES:
+  - AMap3DMap
+  - AMapLocation
+  - AMapNavi
+  - AMapSearch
+  - FTIndicator
+
+SPEC CHECKSUMS:
+  AMap3DMap: 0b1263f9e58d6f96df145c9d5012987aa13f67d9
+  AMapFoundation: c086329a1f19afec00e4c197863665235eb43dc2
+  AMapLocation: e3390d00210f088a8ba5d6a04f135c2116a39581
+  AMapNavi: 4f48c7b34275f80f3d14eff669ac739e0e190c1b
+  AMapSearch: 16a50b493ad419e8b6b81bafdeca7570db52f28e
+  FTIndicator: c005c5787dbb6c40e0aa5af791e60ac1f164e3c0
+
+PODFILE CHECKSUM: bf00748fbfc8eefa38132ad49dd042f88a302f60
+
+COCOAPODS: 1.1.1

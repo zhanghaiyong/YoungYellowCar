@@ -7,26 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		273B66C941D4B68B1C4FE89B /* Pods_YoungYellowCar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CA514BD404BD1D89E58F3C /* Pods_YoungYellowCar.framework */; };
 		9954FAC01ECD876000C37132 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9954FABF1ECD876000C37132 /* Main.storyboard */; };
-		9954FAC31ECD89C700C37132 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9954FAC21ECD89C700C37132 /* MapKit.framework */; };
 		9954FAC71ECD8ABF00C37132 /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954FAC61ECD8ABF00C37132 /* config.swift */; };
 		9954FAC91ECD9D6E00C37132 /* ActivityWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954FAC81ECD9D6E00C37132 /* ActivityWebViewController.swift */; };
+		9954FACB1ECDABC300C37132 /* MeumTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954FACA1ECDABC300C37132 /* MeumTableViewController.swift */; };
 		9963FC651ECD719400CDE271 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9963FC641ECD719400CDE271 /* AppDelegate.swift */; };
 		9963FC671ECD719400CDE271 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9963FC661ECD719400CDE271 /* MainController.swift */; };
 		9963FC6C1ECD719400CDE271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9963FC6B1ECD719400CDE271 /* Assets.xcassets */; };
+		998BD12A1ECE974C0062D6F6 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 998BD1291ECE974C0062D6F6 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		234A724F4FB75AF4578D70A7 /* Pods-YoungYellowCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoungYellowCar.release.xcconfig"; path = "Pods/Target Support Files/Pods-YoungYellowCar/Pods-YoungYellowCar.release.xcconfig"; sourceTree = "<group>"; };
+		5278A47EE0A00F1DF562F5E5 /* Pods-YoungYellowCar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoungYellowCar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YoungYellowCar/Pods-YoungYellowCar.debug.xcconfig"; sourceTree = "<group>"; };
+		66CA514BD404BD1D89E58F3C /* Pods_YoungYellowCar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoungYellowCar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9954FABF1ECD876000C37132 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		9954FAC21ECD89C700C37132 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		9954FAC41ECD8A7A00C37132 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		9954FAC61ECD8ABF00C37132 /* config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
 		9954FAC81ECD9D6E00C37132 /* ActivityWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityWebViewController.swift; sourceTree = "<group>"; };
+		9954FACA1ECDABC300C37132 /* MeumTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeumTableViewController.swift; sourceTree = "<group>"; };
 		9963FC611ECD719400CDE271 /* YoungYellowCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoungYellowCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9963FC641ECD719400CDE271 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9963FC661ECD719400CDE271 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		9963FC6B1ECD719400CDE271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9963FC701ECD719400CDE271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		998BD1251ECE96600062D6F6 /* bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		998BD1281ECE974C0062D6F6 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		998BD1291ECE974C0062D6F6 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,18 +42,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9954FAC31ECD89C700C37132 /* MapKit.framework in Frameworks */,
+				273B66C941D4B68B1C4FE89B /* Pods_YoungYellowCar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DCCDE50E5025B73166F3DE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5278A47EE0A00F1DF562F5E5 /* Pods-YoungYellowCar.debug.xcconfig */,
+				234A724F4FB75AF4578D70A7 /* Pods-YoungYellowCar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9954FAC11ECD89C700C37132 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				9954FAC41ECD8A7A00C37132 /* JavaScriptCore.framework */,
-				9954FAC21ECD89C700C37132 /* MapKit.framework */,
+				66CA514BD404BD1D89E58F3C /* Pods_YoungYellowCar.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -56,6 +73,7 @@
 				9963FC631ECD719400CDE271 /* YoungYellowCar */,
 				9963FC621ECD719400CDE271 /* Products */,
 				9954FAC11ECD89C700C37132 /* Frameworks */,
+				5DCCDE50E5025B73166F3DE2 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,15 +88,35 @@
 		9963FC631ECD719400CDE271 /* YoungYellowCar */ = {
 			isa = PBXGroup;
 			children = (
+				998BD1261ECE97090062D6F6 /* frameworks */,
 				9963FC641ECD719400CDE271 /* AppDelegate.swift */,
 				9963FC661ECD719400CDE271 /* MainController.swift */,
 				9954FAC81ECD9D6E00C37132 /* ActivityWebViewController.swift */,
+				9954FACA1ECDABC300C37132 /* MeumTableViewController.swift */,
 				9954FABF1ECD876000C37132 /* Main.storyboard */,
 				9954FAC61ECD8ABF00C37132 /* config.swift */,
+				998BD1251ECE96600062D6F6 /* bridge.h */,
 				9963FC6B1ECD719400CDE271 /* Assets.xcassets */,
 				9963FC701ECD719400CDE271 /* Info.plist */,
 			);
 			path = YoungYellowCar;
+			sourceTree = "<group>";
+		};
+		998BD1261ECE97090062D6F6 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				998BD1271ECE974C0062D6F6 /* SWRevealViewController */,
+			);
+			path = frameworks;
+			sourceTree = "<group>";
+		};
+		998BD1271ECE974C0062D6F6 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				998BD1281ECE974C0062D6F6 /* SWRevealViewController.h */,
+				998BD1291ECE974C0062D6F6 /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,9 +126,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9963FC731ECD719400CDE271 /* Build configuration list for PBXNativeTarget "YoungYellowCar" */;
 			buildPhases = (
+				7AF50F0249208195B2D56F30 /* [CP] Check Pods Manifest.lock */,
 				9963FC5D1ECD719400CDE271 /* Sources */,
 				9963FC5E1ECD719400CDE271 /* Frameworks */,
 				9963FC5F1ECD719400CDE271 /* Resources */,
+				48E3F38445DF89E17A9D020F /* [CP] Embed Pods Frameworks */,
+				F2954F3B16C4F004AC42F0BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -117,7 +158,7 @@
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -153,6 +194,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		48E3F38445DF89E17A9D020F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YoungYellowCar/Pods-YoungYellowCar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AF50F0249208195B2D56F30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2954F3B16C4F004AC42F0BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YoungYellowCar/Pods-YoungYellowCar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9963FC5D1ECD719400CDE271 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -162,6 +251,8 @@
 				9954FAC71ECD8ABF00C37132 /* config.swift in Sources */,
 				9963FC671ECD719400CDE271 /* MainController.swift in Sources */,
 				9963FC651ECD719400CDE271 /* AppDelegate.swift in Sources */,
+				9954FACB1ECDABC300C37132 /* MeumTableViewController.swift in Sources */,
+				998BD12A1ECE974C0062D6F6 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +300,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -253,7 +344,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -263,30 +354,34 @@
 		};
 		9963FC741ECD719400CDE271 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5278A47EE0A00F1DF562F5E5 /* Pods-YoungYellowCar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = AKEZGLTY8R;
 				INFOPLIST_FILE = YoungYellowCar/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghaiyong.YoungYellowCar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = YoungYellowCar/bridge.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		9963FC751ECD719400CDE271 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 234A724F4FB75AF4578D70A7 /* Pods-YoungYellowCar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = AKEZGLTY8R;
 				INFOPLIST_FILE = YoungYellowCar/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghaiyong.YoungYellowCar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = YoungYellowCar/bridge.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

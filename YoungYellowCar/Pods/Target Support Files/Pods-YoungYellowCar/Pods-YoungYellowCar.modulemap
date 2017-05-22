@@ -1,0 +1,6 @@
+framework module Pods_YoungYellowCar {
+  umbrella header "Pods-YoungYellowCar-umbrella.h"
+
+  export *
+  module * { export * }
+}

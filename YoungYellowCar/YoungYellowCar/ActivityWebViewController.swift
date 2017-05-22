@@ -17,11 +17,20 @@ class ActivityWebViewController: UIViewController {
         self.view.backgroundColor = UIColor.white
         self.title = "热门活动"
         
+        let backItem = UIBarButtonItem(image: UIImage(named:"popBack"), style: UIBarButtonItemStyle.plain, target: self, action: #selector(ActivityWebViewController.BackAction))
+        self.navigationItem.leftBarButtonItem = backItem
+        
+        
         self.webView = WKWebView(frame: self.view.bounds)
         self.view.addSubview(self.webView)
         let url = NSURL.init(string: "http://m.ofo.so/active.html")
         let request = NSURLRequest.init(url: url! as URL)
         self.webView.load(request as URLRequest)
+    }
+    
+    func BackAction() {
+        
+        self.navigationController?.popViewController(animated: true)
     }
 
     override func didReceiveMemoryWarning() {

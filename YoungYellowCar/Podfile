@@ -1,0 +1,15 @@
+use_frameworks!
+platform :ios, '8.0'
+
+target 'YoungYellowCar' do
+
+#3D地图
+pod 'AMap3DMap'
+#定位
+pod 'AMapLocation'
+#搜索
+pod 'AMapSearch'
+#导航
+pod 'AMapNavi'
+pod 'FTIndicator'
+end
