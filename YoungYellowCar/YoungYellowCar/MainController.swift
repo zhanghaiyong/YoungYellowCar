@@ -317,13 +317,16 @@ class MainController: UIViewController,MAMapViewDelegate,AMapSearchDelegate,AMap
     
     /**
      显示折线
-     
      - parameter mapView: mapView
      - parameter overlay: 折线
-     
-     - returns: <#return value description#>
      */
     func mapView(_ mapView: MAMapView!, rendererFor overlay: MAOverlay!) -> MAOverlayRenderer! {
+        
+        //解锁
+         self.pin.isLockedToScreen = false
+        ///可见区域, 设定的该范围可能会被调整为适合地图窗口显示的范围
+        self.mapView.visibleMapRect = overlay.boundingMapRect
+        
         if overlay.isKind(of: MAPolyline.self) {
             let renderer: MAPolylineRenderer = MAPolylineRenderer(overlay: overlay)
             renderer.lineWidth = 8.0
@@ -341,7 +344,7 @@ class MainController: UIViewController,MAMapViewDelegate,AMapSearchDelegate,AMap
     func walkManager(onCalculateRouteSuccess walkManager: AMapNaviWalkManager) {
         
         print("步行路线规划成功")
-        
+        self.mapView.removeOverlays(self.mapView.overlays)
         var coordinate :[CLLocationCoordinate2D] = []
         for point in (walkManager.naviRoute?.routeCoordinates)! {
             
